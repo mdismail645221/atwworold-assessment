@@ -8,6 +8,7 @@ import '../Header/Header.css';
 import { FaSistrix } from "react-icons/fa";
 import Login from '../../Pages/Login/Login';
 import { useState } from 'react';
+import Register from '../../Pages/Register/Register';
 
 function Header() {
     const [modalShow, setModalShow] = useState(false);
@@ -43,6 +44,8 @@ function Header() {
                 show={modalShow}
                 onHide={() => setModalShow(false)}
             />
+
+           
         </section>
 
 
