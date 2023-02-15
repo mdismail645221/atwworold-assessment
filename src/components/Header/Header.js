@@ -16,7 +16,7 @@ function Header() {
                 <Navbar.Collapse className='justify-content-evenly flex-grow-1' id="basic-navbar-nav">
                     <div className='navSearchBar'>
                         <div className='navIconInput'>
-                            <FaSistrix />
+                            <FaSistrix size={20} />
                             <input className='w-full' type="text" placeholder='Search your favourie group in ATG' />
                         </div>
                     </div>
