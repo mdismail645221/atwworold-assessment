@@ -1,0 +1,27 @@
+.socialMenu{
+    display: flex;
+}
+
+.socialMenu li {
+    list-style: none;
+    padding: 1rem 1.25rem;
+}
+
+.socialMenu a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.socialNavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.socialButtonGroup{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
