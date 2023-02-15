@@ -8,7 +8,8 @@ import '../Header/Header.css';
 import { FaSistrix } from "react-icons/fa";
 import Login from '../../Pages/Login/Login';
 import { useState } from 'react';
-import Register from '../../Pages/Register/Register';
+import logo from '../../assets/images/logo.png.png'
+
 
 function Header() {
     const [modalShow, setModalShow] = useState(false);
@@ -17,7 +18,7 @@ function Header() {
         <section>
             <Navbar expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">ATG.WORLD</Navbar.Brand>
+                    <Navbar.Brand href="/"><img src={logo} alt="logo" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse className='justify-content-evenly flex-grow-1' id="basic-navbar-nav">
                         <div className='navSearchBar'>
