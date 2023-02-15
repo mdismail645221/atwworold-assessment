@@ -1,9 +1,41 @@
-.socailAllPostContainer{
-    display: grid;
-    grid-template-columns: 2fr 1fr ;
-}
-.AllPostContainer{
+.AllPostContainer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
+}
+
+
+/* location info */
+.locationInfo {
+    /* background-color: #ddd; */
+    /* border: 1px solid #B8B8B8; */
+    border: 0.4px solid #B8B8B8;
+    padding: 0.7rem 1.75rem;
+    box-shadow: 2px 2px 2px #B8B8B8;
+    border-radius: 2px;
+}
+
+
+
+
+/* Ban info */
+/* .BanIcon{
+
+} */
+.BanContainer .banTitle {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 27px;
+    background: #EDEEF0;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/* REcommendedContainer */
+.REcommendedContainer {
+    margin-top: 54px;
 }
