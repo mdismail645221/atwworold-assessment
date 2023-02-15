@@ -4,27 +4,22 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import '../Header/Header.css'
 
 function Header() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar  expand="lg">
             <Container>
                 <Navbar.Brand href="#home">ATG.WORLD</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse className='justify-content-center flex-grow-1' id="basic-navbar-nav">
-                    <input type="text" placeholder='text' />
-                    <Nav>
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
-                                Another action
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
+                <Navbar.Collapse className='justify-content-evenly flex-grow-1' id="basic-navbar-nav">
+                    <div className='navSearchBar'>
+                        <input className='w-full' type="text" placeholder='Search your favourie group in ATG' />
+                    </div>
+                    <Nav className='menu'>
+                        <NavDropdown className='fs-6' title={<><p className='d-inline'>Create Account <span>It's free</span></p></>} id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.4">
-                                Separated link
+                               Login
                             </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
