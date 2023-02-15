@@ -12,7 +12,7 @@ function Register(props) {
             {...props}
             size="lg"
             aria-labelledby="contained-modal-title-vcenter"
-            centered
+            bottom
         >
             {/* top titile bar */}
             <div>
