@@ -1,24 +1,40 @@
-
-.navSearchBar{
+.navSearchBar {
     flex-basis: 49%;
     align-items: center;
     text-align: center;
-        padding: 10px 0;
+    padding: 10px 0;
 }
-.navSearchBar input{
+
+.navSearchBar input {
     width: 18.75rem;
     padding: 0.5rem 2rem;
     outline: none;
     border-radius: 3px;
     border-style: none;
-        background-color: #F2F2F2;
     border-radius: 1.313rem;
-    width: 22rem;
+    background-color: #F2F2F2;
+
 }
-.navSearchBar input:focus{
-    border: 1px solid green;
-    border-radius: 10px;
+
+.navIconInput {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    background-color: #F2F2F2;
+    border: 2px solid #F2F2F2;
+    border-radius: 18px;
 }
+
+
+.navSearchBar input:focus {
+    border: 2px solid #F2F2F2;
+    border: 0.5px solid #F2F2F2;
+
+}
+
 .menu {
     flex-basis: 49%;
     justify-content: end;
